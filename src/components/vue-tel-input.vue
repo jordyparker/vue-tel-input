@@ -29,9 +29,9 @@
       <ul
         v-if="open"
         ref="list"
-        class="vti__dropdown-list"
+        class=""
         :style="{ width: dropdownOptions.width }"
-        :class="dropdownOpenDirection"
+        :class="[dropdownOptions.class, dropdownOpenDirection]"
         role="listbox"
       >
         <input

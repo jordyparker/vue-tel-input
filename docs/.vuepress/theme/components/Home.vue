@@ -21,7 +21,7 @@
       </span>
 
       <div style="width: 500px; margin: 20px auto">
-        <vue-tel-input v-model="phoneModel" v-bind="options" @input="onInput" />
+        <vue-tel-input v-model="phoneModel"  v-bind="options" @input="onInput" />
       </div>
       <div v-if="phoneObject.formatted" style="color: #e83e8c">
         <span>

@@ -81,6 +81,12 @@ export const allProps = [
     inDemo: false,
   },
   {
+    name: 'dropdownOptions.class',
+    default: 'vti__dropdown-list',
+    type: String,
+    description: 'custom class for dropdown list',
+  },
+  {
     name: 'dropdownOptions.disabled',
     default: false,
     type: Boolean,
